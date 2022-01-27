@@ -4,9 +4,9 @@ export interface Post {
   title: string
   author: {
     name: string
-    image: string | null
+    image: string
   }
-  comments: [Comment]
+  comments: Comment[]
   description: string
   mainImage: {
     asset: {
