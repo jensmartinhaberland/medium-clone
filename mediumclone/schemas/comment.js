@@ -1,15 +1,15 @@
 export default {
   name: 'comment',
-  title: 'Comment',
   type: 'document',
+  title: 'Comment',
   fields: [
     {
-      name: 'title',
+      name: 'name',
       type: 'string',
     },
     {
-      name: 'approved',
       title: 'Approved',
+      name: 'approved',
       type: 'boolean',
       description: "Comments won't show on the site without approval",
     },
@@ -23,7 +23,6 @@ export default {
     },
     {
       name: 'post',
-
       type: 'reference',
       to: [{ type: 'post' }],
     },

@@ -8,19 +8,21 @@
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
-    "build": "sanity build"
+    "build": "sanity build",
+    "deploy": "sanity deploy",
+    "upgrade": "sanity upgrade"
   },
   "keywords": [
     "sanity"
   ],
   "dependencies": {
-    "@sanity/base": "^2.25.1",
+    "@sanity/base": "^2.25.4",
     "@sanity/core": "^2.25.0",
-    "@sanity/default-layout": "^2.25.1",
+    "@sanity/default-layout": "^2.25.4",
     "@sanity/default-login": "^2.24.1",
-    "@sanity/desk-tool": "^2.25.3",
+    "@sanity/desk-tool": "^2.25.4",
     "@sanity/eslint-config-studio": "^2.0.0",
-    "@sanity/vision": "^2.25.1",
+    "@sanity/vision": "^2.25.4",
     "eslint": "^8.6.0",
     "prop-types": "^15.7",
     "react": "^17.0",
