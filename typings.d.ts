@@ -4,7 +4,7 @@ export interface Post {
   title: string
   author: {
     name: string
-    image: string
+    image: string | null
   }
   comments: [Comment]
   description: string
